@@ -1,0 +1,12 @@
+{
+  "fixture": true,
+  "source_sha256": "dd9234c2c70884b471586cec107978addf0fb16e3d26bfbdc5a8f837e1840100",
+  "status": "fixture-not-model-output",
+  "segments": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "合成示例，不是音频转写。"
+    }
+  ]
+}

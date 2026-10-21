@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+workspace/
+captures/
+models/
+browser_data/
+*.log
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+.env.*
+.ssh/
+.netrc
+.DS_Store

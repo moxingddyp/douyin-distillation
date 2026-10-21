@@ -1,0 +1,11 @@
+{
+  "fixture": true,
+  "work_id": "demo-local",
+  "source_sha256": "dd9234c2c70884b471586cec107978addf0fb16e3d26bfbdc5a8f837e1840100",
+  "comments": [
+    {
+      "text": "虚构问题：输入是什么？",
+      "is_reply": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source_sha256": "REPLACE_WITH_ACTUAL_SOURCE_HASH",
+  "reviewer": "",
+  "key_frames_reviewed": false,
+  "conclusions_traceable": false,
+  "captured_comments_reviewed": false,
+  "captured_comment_count": 0,
+  "independent_audio_reviewed": false,
+  "audio_acceptance": {
+    "mode": "",
+    "authorization_reference": "",
+    "audio_only_items_excluded": false,
+    "exclusions_file": "audio-exclusions.md"
+  },
+  "reviewed_frames": [],
+  "sources": [],
+  "remaining_gates": ["read full transcript", "inspect original frames", "consult actual primary sources", "review captured comments", "verify audio acceptance", "write traceable note and methods"]
+}

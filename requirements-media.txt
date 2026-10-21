@@ -1,0 +1,7 @@
+# Direct optional dependencies; not a resolved lockfile. No installation performed.
+av==18.1.0
+faster-whisper==1.2.1
+rapidocr==3.9.2
+onnxruntime==1.30.0
+Pillow==12.3.0
+ctranslate2==4.8.2

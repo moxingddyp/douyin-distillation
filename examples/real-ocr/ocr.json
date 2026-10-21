@@ -1,0 +1,48 @@
+{
+  "source_sha256": "d1ddefe1359824d609139ea523b0a6ba03f84051250305d4e9fdfbfc56361b03",
+  "fixture": false,
+  "status": "machine_unreviewed",
+  "sample_interval_s": 1.0,
+  "engine": "rapidocr",
+  "model_hashes": {
+    "det": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+    "cls": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+    "rec": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+    "keys": "b8b5cba807b350e112ac056c44177c87fc8c394d244f69660cda4d8102c85ae3"
+  },
+  "frames": [
+    {
+      "second": 0.0,
+      "file": "frames/frame-00000.png",
+      "sha256": "b8091c9a5d78766e839765df9c8591f04698ca68c31fc6a71f20e67d39d779dc",
+      "texts": [
+        {
+          "text": "LOCAL DEMO 123",
+          "score": 0.99517
+        }
+      ]
+    },
+    {
+      "second": 1.0,
+      "file": "frames/frame-00001.png",
+      "sha256": "5862aba934e2addece9fb982b96b18e914b6f9f7fc7de0b9c4ff363c92787a74",
+      "texts": [
+        {
+          "text": "LOCAL DEMO 123",
+          "score": 0.99511
+        }
+      ]
+    },
+    {
+      "second": 2.0,
+      "file": "frames/frame-00002.png",
+      "sha256": "ce2ddac4c6fbed7bb3dd69d1013640cdc4ff87ebee2cbf7d2a7995bd7b59666b",
+      "texts": [
+        {
+          "text": "LOCAL DEMO 123",
+          "score": 0.97972
+        }
+      ]
+    }
+  ]
+}

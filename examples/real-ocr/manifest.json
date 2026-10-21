@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "tool_version": "0.1.0-preparation",
+  "work_id": "self-made-card",
+  "source_url": "https://example.org/self-made-card",
+  "media": "source.mp4",
+  "source_sha256": "d1ddefe1359824d609139ea523b0a6ba03f84051250305d4e9fdfbfc56361b03",
+  "media_info": {
+    "duration_s": 3.0,
+    "audio_tracks": 0,
+    "audio_decoded_frames": 0,
+    "video_decoded_frames": 30,
+    "decoder": "pyav"
+  },
+  "fixture": false,
+  "status": "media_verified"
+}

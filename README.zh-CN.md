@@ -1,10 +1,16 @@
-# 抖音蒸馏与转写工作流
+# 媒体采集与蒸馏：抖音、B站和小红书
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
 把指定视频或本地媒体整理为可追溯的笔记和方法库，而不只是生成一份转写稿。
 
 采集或导入 → 完整性检查 → 语音转写与画面OCR → 内容和来源核查 → 逐条笔记 → 方法整合 → 交付检查。
+
+本版同时纳入小红书指定单篇采集：原图顺序、可用视频、已观察评论/互动、私有原始输入及本地ASR/OCR关联，详见[组件说明](platforms/xiaohongshu/README.zh-CN.md)。此公开适配器已完成离线检查，本版未验证真实登录/Windows采集。统一入口为`python scripts/media.py --help`，分别使用`bilibili capture`、`xiaohongshu`、`douyin capture`及`local`分支。
+
+## 0.2.0版本
+
+新增B站指定单分P采集：显式传入用户自己的Chrome profile，保留字幕原件、绑定BV/aid/P/CID并下载音视频分轨。见[B站说明](skill/distillation-workflow/references/bilibili.zh-CN.md)。原抖音/本地媒体入口保留。[v0.2.0](https://github.com/moxingddyp/douyin-distillation/releases/tag/v0.2.0)提供完整源码包与独立Skill ZIP；升级说明见[CHANGELOG.md](CHANGELOG.md)。
 
 ## 提供什么
 

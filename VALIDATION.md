@@ -52,3 +52,7 @@ Record the actual content, language, and expected text yourself. Do not substitu
 - Complete transitive dependency and model license coverage depends on the selected runtime environment. MIT does not establish unrestricted commercial use of external components.
 
 Users prepare their own environment. These unverified areas are disclosed limits of the source preview, not a claim of universal deployment support.
+
+## 0.2.0 release verification / 本版验证
+
+Root offline suite: 32 checks (26 existing pipeline, 3 Bilibili API-fixture checks, 3 route checks); Xiaohongshu: 19 offline checks. Bilibili fixtures check exact identity, existing-output preservation and omission of signed URLs from reports. No fixture opens a browser or establishes live-platform acceptance. CLI help, Python syntax, Skill structure and package privacy checks are performed for this release. The original one-part Bilibili workflow was previously tested; the public profile-parameterized adapter and Xiaohongshu portable adapter have not been freshly tested against platform login/capture. No new ASR/OCR inference or model installation was run for this release.

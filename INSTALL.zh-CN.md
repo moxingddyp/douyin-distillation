@@ -52,3 +52,5 @@ MediaCrawler为外部依赖，不随包分发。使用前读取[适配版本及�
 重连或重试前核对执行机、工作目录、原进程和日志。前台SSH断开不能确定远程任务是否仍在运行。
 
 失败不推进成功检查点。核对源哈希、JSON可解析和时间范围，保留失败产物后换新目录重做。原件改变时创建新版本，不以旧ASR/OCR掩盖变化。
+
+B站采集使用`requirements-capture.txt`与Skill内助手，按[profile及范围要求](skill/distillation-workflow/references/bilibili.zh-CN.md)配置；Chrome单独安装。独立Skill ZIP调用根目录处理工具时仍需本仓库。

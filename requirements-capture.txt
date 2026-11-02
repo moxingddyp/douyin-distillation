@@ -1,0 +1,2 @@
+# Optional Bilibili capture only; install Google Chrome separately.
+playwright>=1.40,<2

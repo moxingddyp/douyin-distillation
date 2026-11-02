@@ -25,3 +25,7 @@ The pipeline provides standalone input handling, deferred optional imports, comp
 Original code is licensed under [MIT](LICENSE), with attribution to `moxingddyp`. The full license retains its standard English text; Chinese explanations are for convenience and do not replace it.
 
 MIT does not override MediaCrawler's non-commercial restrictions or any runtime/model terms. No runtimes or model weights are distributed. Any future redistribution requires checking the applicable license and NOTICE obligations.
+
+## Optional browser capture / 可选浏览器采集
+
+Bilibili and Xiaohongshu helpers use separately installed Playwright (Apache-2.0) and native Google Chrome under its own terms. Neither is bundled. User browser state, platform content and downloaded model weights are not part of the MIT source grant.

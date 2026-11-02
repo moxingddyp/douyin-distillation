@@ -25,3 +25,7 @@
 自有代码采用[MIT](LICENSE)，作者署名`moxingddyp`。许可证全文保留标准英文；中文说明帮助理解，不替代正文。
 
 MIT不覆盖MediaCrawler非商业限制，也不覆盖运行库或模型条款。运行库及模型权重不随包分发。未来增加再分发时，需核对应许可与NOTICE义务。
+
+## Optional browser capture / 可选浏览器采集
+
+Bilibili and Xiaohongshu helpers use separately installed Playwright (Apache-2.0) and native Google Chrome under its own terms. Neither is bundled. User browser state, platform content and downloaded model weights are not part of the MIT source grant.

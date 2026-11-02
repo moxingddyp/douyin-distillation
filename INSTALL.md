@@ -52,3 +52,5 @@ You may copy the package and necessary inputs to your own execution machine. Con
 Before reconnecting or retrying, verify the machine, work directory, running process, and logs. A disconnected foreground SSH session does not establish whether the remote task is still running.
 
 Failures do not advance successful checkpoints. Check source hashes, parseable JSON, and time ranges; preserve failed outputs and retry in a new directory. Changed input requires a new version rather than reuse of stale ASR or OCR.
+
+Bilibili capture uses `requirements-capture.txt` and the bundled Skill helper; follow [its profile and scope requirements](skill/distillation-workflow/references/bilibili.md). Chrome is installed separately. The standalone Skill ZIP needs this repository for root pipeline scripts.

@@ -1,0 +1,2 @@
+# Optional browser dependency, installed by the user. Native Google Chrome is separate.
+playwright>=1.45,<2

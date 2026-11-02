@@ -52,3 +52,7 @@ python3 scripts/pipeline.py read --work /path/to/new-voice-work --section transc
 - 完整传递依赖及模型许可取决于所选运行环境；MIT不表示外部组件可以无限制商用。
 
 环境由使用者自行准备。这些是源码预览明确披露的边界，不宣称通用部署支持。
+
+## 0.2.0 release verification / 本版验证
+
+Root offline suite: 32 checks (26 existing pipeline, 3 Bilibili API-fixture checks, 3 route checks); Xiaohongshu: 19 offline checks. Bilibili fixtures check exact identity, existing-output preservation and omission of signed URLs from reports. No fixture opens a browser or establishes live-platform acceptance. CLI help, Python syntax, Skill structure and package privacy checks are performed for this release. The original one-part Bilibili workflow was previously tested; the public profile-parameterized adapter and Xiaohongshu portable adapter have not been freshly tested against platform login/capture. No new ASR/OCR inference or model installation was run for this release.

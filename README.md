@@ -1,10 +1,22 @@
-# Douyin Distillation and Transcription Workflow
+# Media Distillation: Douyin, Bilibili and Xiaohongshu
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
 Turn selected videos or local media into traceable notes and reusable methods—not just transcripts.
 
 Capture or import → Integrity checks → Speech recognition and frame OCR → Content and source review → Per-work notes → Method synthesis → Delivery checks.
+
+Xiaohongshu single-note intake is included in this release: original image order, available video, observed comments/interactions, private raw inputs, and local ASR/OCR links. See [the component guide](platforms/xiaohongshu/README.md). This portable public adapter has offline checks; live login/Windows capture has not been validated for this release.
+
+```sh
+python scripts/media.py --help
+python scripts/media.py bilibili capture --help
+python scripts/media.py xiaohongshu --help
+```
+
+## Version 0.2.0
+
+Bilibili single-part capture is now included with an explicit user-owned Chrome profile parameter, original subtitles, BV/aid/part/CID binding, and separate audio/video downloads. Read [the Bilibili guide](skill/distillation-workflow/references/bilibili.md). Existing Douyin/local-media commands remain available. Download the full source or standalone Skill ZIP from [v0.2.0](https://github.com/moxingddyp/douyin-distillation/releases/tag/v0.2.0). See [upgrade notes](CHANGELOG.md).
 
 ## What's Included
 
